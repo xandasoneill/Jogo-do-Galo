@@ -115,8 +115,6 @@ def ai_move_minimax(ai_player, human_player, board):
     empty_cells = list_of_emmpty(board)
     #print(empty_cells)
     
-    if empty_cells == cellss():
-        return empty_cells[int(random()*10 - 1)]
 
     for cell in empty_cells:
         board[cell] = ai_player
